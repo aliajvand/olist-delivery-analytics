@@ -58,3 +58,4 @@ CREATE TABLE IF NOT EXISTS fact_order_items (
 CREATE INDEX IF NOT EXISTS idx_order_purchase ON fact_orders(order_purchase_timestamp);
 CREATE INDEX IF NOT EXISTS idx_order_cust ON fact_orders(customer_id);
 CREATE INDEX IF NOT EXISTS idx_item_seller ON fact_order_items(seller_id);
+

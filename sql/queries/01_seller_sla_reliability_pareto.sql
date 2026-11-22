@@ -44,3 +44,4 @@ SELECT
 FROM seller_metrics
 ORDER BY late_volume_rank
 LIMIT 30;
+

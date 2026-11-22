@@ -24,3 +24,4 @@ FROM fact_orders o
 WHERE o.order_delivered_customer_date IS NOT NULL
 ORDER BY o.order_purchase_timestamp DESC
 LIMIT 50;
+

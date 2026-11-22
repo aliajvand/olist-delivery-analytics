@@ -57,3 +57,4 @@ def test_route_risk_endpoint():
     assert data["destination_state"] == "BA"
     assert data["historical_late_rate_pct"] == 14.2
     assert "High Bottleneck Risk" in data["route_status"]
+

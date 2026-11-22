@@ -213,3 +213,4 @@ poster_rgb.save(poster_png)
 poster_rgb.save(poster_pdf, "PDF", resolution=150.0)
 
 print("All visual assets for Olist Delivery Analytics generated successfully!")
+

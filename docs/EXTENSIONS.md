@@ -25,3 +25,4 @@ Customer checkout displays: *"Guaranteed delivery by [Date] with 90% statistical
 ### 2.1 Logistics Architecture
 - When `predict-delay` flags an order exceeding the 25.1% threshold, automatically trigger a secondary routing query.
 - Shift origin fulfillment from regional postal services (Correios standard ground) to regional private courier express lines, recalculating expected transit time and net margin.
+
