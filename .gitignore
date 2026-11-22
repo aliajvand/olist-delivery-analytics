@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# --- Raw and intermediate data: never committed (licence + size) ---
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+data/processed/*
+!data/processed/**/README.md
+data/sample_raw/
+data/sample_processed/
+
+# --- Trained binaries are rebuildable, metrics are the record ---
+models/**/*.joblib
+models/**/*.pkl
+
+# --- Reports, figures and metrics ARE committed: they are the portfolio ---
+!reports/**
+!models/**/*.json
+!models/**/*.png
+
+# --- Editor / OS ---
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+{
+  "project": "05_order_service_segmentation",
+  "type": "clustering",
+  "k": 4,
+  "features": [
+    "order_item_count",
+    "order_seller_count",
+    "order_gmv",
+    "order_weight_g",
+    "order_volume_cm3",
+    "order_freight_total",
+    "distance_km",
+    "estimated_delivery_days",
+    "max_installments"
+  ],
+  "silhouette_train": 0.31627991791420257,
+  "silhouette_holdout": 0.3328115942195515,
+  "late_rate_spread_across_segments": 13.8,
+  "segment_names": {
+    "0": "Small local",
+    "1": "Heavy local",
+    "2": "Light long-haul",
+    "3": "Heavy long-haul"
+  },
+  "validation": "fitted on chronological train split only; holdout orders assigned, never refitted",
+  "random_state": 42,
+  "snapshot_date": "2018-10-18"
+}
